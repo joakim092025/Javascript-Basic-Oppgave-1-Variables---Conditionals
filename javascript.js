@@ -31,7 +31,7 @@ let isHungry = true;
 let foods = ["Chicken", "Steak", "Pancakes", "Lapskaus"];
 
 if (myAge >= 18) {
-    console.log("Du er gammel nok til å stemme.");
+    console.log("Du er gammel nok nå, stopp!");
 }
 
 
@@ -46,6 +46,10 @@ Skriv noen eksempler der du tester disse operatorene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
+
+if (myAge === 31);{
+    console.log();
+}
 
 /******************************************************************************
 OPPGAVE 4
