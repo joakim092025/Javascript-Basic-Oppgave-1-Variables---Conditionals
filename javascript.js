@@ -47,9 +47,16 @@ Skriv noen eksempler der du tester disse operatorene.
 
 // Skriv koden for oppgave 3 her
 
-if (myAge === 31);{
-    console.log();
-}
+let a = 4;
+const b = 2;
+let c = a + 1;
+
+console.log(c)
+
+let d = --a;
+
+console.log(d)
+
 
 /******************************************************************************
 OPPGAVE 4
