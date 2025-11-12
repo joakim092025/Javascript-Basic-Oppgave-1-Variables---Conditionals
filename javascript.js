@@ -25,14 +25,15 @@ const når du definerer variablene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
-const myName = "Joakim";
-let myAge = 31;
-let isHungry = true;
-let foods = ["Chicken", "Steak", "Pancakes", "Lapskaus"];
 
-if (myAge >= 18) {
-    console.log("Du er gammel nok nå, stopp!");
-}
+// const myName = "Joakim";
+// let myAge = 31;
+// let isHungry = true;
+// let foods = ["Chicken", "Steak", "Pancakes", "Lapskaus"];
+
+// if (myAge >= 18) {
+//     console.log("Du er gammel nok nå, stopp!");
+// }
 
 
 /******************************************************************************
@@ -47,16 +48,19 @@ Skriv noen eksempler der du tester disse operatorene.
 
 // Skriv koden for oppgave 3 her
 
-let a = 4;
-const b = 2;
-let c = a + 1;
+// let a = 4;
+// let b = 2;
+// let c = a + 1;
 
-console.log(c)
+// console.log(c);
 
-let d = --a;
+// a += b;
 
-console.log(d)
+// console.log(a);
 
+// c *= a;
+
+// console.log(c);
 
 /******************************************************************************
 OPPGAVE 4
@@ -87,6 +91,32 @@ let goToPage = "";
 
 // Skriv koden for oppgave 4 her
 
+//if (userName == "") {
+//    console.log("For helvete, lær deg js, kis.");
+//} else {
+//    console.log("Oops, my bad.");
+//}
+
+//if (userAge >= 18) {
+//    console.log("Du kan kjøpe pils!");
+//} else {
+//    console.log("Drikk vatten.");
+//}
+
+//userAge >= 18 ? console.log("Velkommen.") : console.log("Gå hjem.");
+
+// if (userName != "" && userAge >= 18 && userIsBlocked === false) {
+//     userIsLoggedIn = true;
+//     goToPage = "/home";
+// } else {
+//     console.log("User Denied.");
+// }
+
+userName == "" && userAge >= 18 && userIsBlocked === false ? ((userIsLoggedIn = true), (goToPage = "/home")) : console.log("User Denied!");
+
+console.log(userIsLoggedIn);
+console.log(goToPage);
+
 /******************************************************************************
 OPPGAVE 5
 
@@ -105,3 +135,7 @@ at betingelsen din fungerer som den skal.
 const userMale = false;
 
 // Skriv koden for oppgave 5 her
+
+const userTitle = userMale == false ? "Mrs." : "Mr.";
+
+console.log(userTitle);
